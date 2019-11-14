@@ -20,9 +20,9 @@ You can get fixture-magic from pypi with::
 
     pip install django-fixture-magic
 
-The development version can be installed with::
+The `0.1.4` version can be installed with::
 
-    pip install -e git://github.com/davedash/django-fixture-magic#egg=fixture-magic
+    pip install https://github.com/krectra/django-fixture-magic/archive/v0.1.0.tar.gzc
 
 For use in python3 install the following::
 
