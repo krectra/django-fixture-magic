@@ -22,7 +22,9 @@ You can get fixture-magic from pypi with::
 
 The `0.1.4` version can be installed with::
 
-    pip install https://github.com/krectra/django-fixture-magic/archive/v0.1.0.tar.gzc
+    pip install https://github.com/krectra/django-fixture-magic/archive/v0.1.0.tar.gz
+OR
+    pip install git+https://github.com/krectra/django-fixture-magic#django-fixture-magic
 
 For use in python3 install the following::
 
