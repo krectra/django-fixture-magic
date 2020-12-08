@@ -1,4 +1,4 @@
-.. image:: https://travis-ci.org/davedash/django-fixture-magic.png?branch=master
+.. image:: https://travis-ci.org/davedash/django-fixture-magic.svg?branch=master
     :target: https://travis-ci.org/davedash/django-fixture-magic
 
 
@@ -48,6 +48,7 @@ There are four commands.  ``dump_object`` returns the json representation of
 a specific object as well as all its dependencies (as defined by ForeignKeys)::
 
     ./manage.py dump_object APP.MODEL PK1 PK2 PK3 ... > my_new_fixture.json
+
 Or:
 
 ::
